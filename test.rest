@@ -1,0 +1,27 @@
+GET http://localhost:5000/api/v1/tasks
+
+###
+
+POST http://localhost:5000/api/v1/tasks
+Content-Type: application/json
+
+{
+    "name": "angga"
+}
+
+###
+
+GET http://localhost:5000/api/v1/tasks/2
+
+###
+DELETE  http://localhost:5000/api/v1/tasks/1
+
+###
+
+PATCH http://localhost:5000/api/v1/tasks/5
+Content-Type: application/json
+
+{
+    "name": "Angga Cipta",
+    "completed": true
+}
